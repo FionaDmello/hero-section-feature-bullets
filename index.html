@@ -23,12 +23,38 @@
       /* You may write styles inside this <style> tag or within `css/style.css`. */
     </style>
   </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
-
+  <body class="p-4">
+      <div class="flex-1 flex-col h-[96vh] bg-red-300">
+          <div class="px-4 py-12 space-y-12 min-h-full bg-blue-50">
+            <div class="flex-1 flex-col min-h-full space-y-8">
+                <div class="space-y-8">
+                    <h1 class="text-4xl font-semibold">Premium abstract images</h1>
+                    <ul class="flex flex-col gap-y-5">
+                        <li class="flex space-x-3">
+                            <span class="rounded-full w-6 h-6 bg-indigo-100"></span>
+                            <span>Minimum 5K image resolution</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <span class="rounded-full w-6 h-6 bg-indigo-100"></span>
+                            <span class="text-wrap">Various format variants available</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <span class="rounded-full w-6 h-6 bg-indigo-100"></span>
+                            <span>Retina display support</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex space-x-4">
+                    <button class="flex-1 px-5 py-3 bg-indigo-700 shadow-sm rounded-sm">See pricing</button>
+                    <button class="flex-1 px-5 py-3 text-black bg-white shadow-sm rounded-sm">Learn more</button>
+                </div>
+            </div>
+            <img src="./img/prism.png" alt="Premium abstract images" class="flex-1 rounded-lg"></img>
+          </div>
+      </div>
+      
+      
+    
     <!-- Premium abstract images
       Minimum 5K image resolution
       Various format variants available
@@ -45,7 +71,7 @@
         >GreatFrontEnd Projects</a
       >. Built by
       <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
-        >Your Name</a
+        >Fiona D'Mello</a
       >.
     </div>
     <script src="js/index.js"></script>
